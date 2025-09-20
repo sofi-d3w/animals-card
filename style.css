@@ -56,6 +56,12 @@ h1 {
     width: 350px;
     padding: 10px;
     border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.animal-card:hover {
+    background: #cc66ff;
+    transform: rotate(5deg) scale(1.1);
 }
 
 .animal-card img {

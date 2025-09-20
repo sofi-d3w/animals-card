@@ -1,0 +1,76 @@
+* {
+    font-family: Arial, "Helvetsca Neue", Helvetica, sans-serif;
+}
+
+body {
+    background: #000099;
+}
+
+header {
+    background: #009999;
+    max-width: 650px;
+    margin: 0 auto;
+    border: radius 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo span {
+    color: #660033;
+    font-size: 22px;
+    font-weight: 850;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #990099;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.animal-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.animal-card {
+    background: #99cc00;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.animal-card img {
+    width: 300px;
+    height: 240;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.animal-card h3 {
+    text-align: center;
+    color: #cc66ff;
+}
+
+.animal-card {
+    text-align: center;
+    color: aqua;
+}
